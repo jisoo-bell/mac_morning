@@ -1,0 +1,15 @@
+
+echo "# mac_morning" >> README.md
+git init    : git 저장소가 초기화됨
+git add README.md  : readme.md를 git에 넣겠다 (체크아웃해서 수정하는거라서 생각하면됨)
+git commit -m "first commit"  : “ “ 안에 주석달아서 체크인하는거라고 생각하면됩니다. 
+git remote add origin https://github.com/jisoo-bell/mac_morning.git   : 원격저장소 이름은 origin이고 주소는 저거로 생성한다
+git push -u origin master   :  내가 커밋한거에 대해서 원격저장소에 넣어버린다 (푸시 : 원격저장소에서 땡기는듯한 느낌이지)
+
+git status  : 상태보는거
+rm 파일명 : 파일삭제하는거
+vi 파일명 : 파일들어가서편집하는거
+
+
+* 깃은 내가 a파일을 수정해도 다른사람이 동시에 수정가능하구나
+
